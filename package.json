@@ -1,5 +1,6 @@
 {
-  "name": "react",
+  "homepage": "https://atajaan.github.io/React.js-practice-musiciansList/",
+  "name": "react-prac-mus-app",
   "version": "0.0.0",
   "private": true,
   "dependencies": {
@@ -7,6 +8,8 @@
     "react-dom": "^17.0.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
